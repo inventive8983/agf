@@ -56,7 +56,7 @@
                           <li>
                             <a href="health-awareness.html">Health Awareness</a>
                           </li>
-                          <li><a href="works.html">See All Workds</a></li>
+                          <li><a href="works.html">See All Works</a></li>
                         </ul>
                       </li>
                       <li><a href="gallery.html">Gallery</a></li>
@@ -69,7 +69,7 @@
               <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                 <div class="donate_now">
                   <a
-                    href="https://www.instamojo.com/@agfoundation/"
+                    href="https://rzp.io/l/agfdonate"
                     class="boxed-btn"
                     >Donate Now</a
                   >
@@ -116,9 +116,8 @@
           <div class="col-lg-8">
             <form
               class="form-contact contact_form"
-              action="https://formspree.io/f/mdoynzeq"
-              method="POST"
               id="joinUsForm"
+              novalidate="novalidate"
             >
               <div class="row">
                 <div class="col-sm-6">
@@ -176,12 +175,11 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <button
-                  onclick="submitJoinUsForm()"
+                <input
+                  type="submit"
+                  value="Send"
                   class="button button-contactForm boxed-btn"
-                >
-                  Send
-                </button>
+                />
               </div>
             </form>
           </div>
@@ -197,8 +195,8 @@
               <div class="footer_widget">
                 <h3 class="footer_title">Join With Us</h3>
                 <p class="footer_text doanar">
-                  <a class="first" href="#">Become a Volunteer</a> <br /><a
-                    href="https://www.instamojo.com/@agfoundation/"
+                  <a class="first" href="volunteer.html">Become a Volunteer</a>
+                  <br /><a href="https://rzp.io/l/agfdonate"
                     >Donate Now</a
                   >
                 </p>
@@ -213,12 +211,14 @@
                 <div class="socail_links">
                   <ul>
                     <li>
-                      <a href="{{fb-link}}">
+                      <a
+                        href="https://www.facebook.com/Antatah-Gatva-Foundation-103335164670081/"
+                      >
                         <i class="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="{{twitter-link}}">
+                      <a href="https://twitter.com/antatahf">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </li>
@@ -235,12 +235,12 @@
               <div class="footer_widget">
                 <h3 class="footer_title">Navigation</h3>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Works</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Join Us</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="works.html">Works</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="volunteer.html">Join Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -279,7 +279,7 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
 
-    <script src="js/contact.js"></script>
+    <script src="js/joinUs.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
