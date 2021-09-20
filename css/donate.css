@@ -1,0 +1,46 @@
+.main-container{
+    margin:100px 15%; 
+    border:2px solid gray; 
+    border-radius:6px;
+}
+.header-container p{
+    margin-top:15px; 
+    margin-left:10px; 
+    font-weight: 700;
+}
+.details-container{
+    display: flex;
+}
+.details-container .left-container{
+    margin-left:21px;
+}
+.right-container{
+    margin-left: 30px;
+}
+.right-container p:first-child{
+    margin-top: 15px;
+}
+.website-details-container{
+    border:1px solid lightgrey ;
+    padding:10px 30px; 
+    border-radius: 4px; 
+    margin: 0 30px 30px 0; 
+    box-shadow: 3px 3px lightgray;
+}
+.website-details-container p{
+    font-weight: 700;
+}
+@media (max-width: 865px) {
+  .details-container {
+    display: block;
+  }
+  .header-container{
+      text-align: center;
+  }
+  .bank-details-container{
+      text-align: center;
+  }
+  .right-container{
+      text-align: center;
+  }
+}
